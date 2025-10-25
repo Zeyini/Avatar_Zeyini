@@ -1,18 +1,38 @@
+
+# Ignore Qt Creator virtual environments
+.qtcreator/
+
+# Documentation and License files (these stay tracked)
 LICENSE
 README.md
 
-
-# Environments
-.env
-.venv
-env/
+# 🧩 Virtual Environments
+.venv/
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
+
+# 🧠 Python cache & temporary files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# 🧾 Logs and temporary files
+*.log
+*.tmp
 
+# 🖼️ Generated plots or data outputs
 plotscode/plots/
 plotscode/.Rhistory
 plotscode/.RData
+
+# 💻 macOS system files
+.DS_Store
+
+# 📦 Jupyter or IDE-specific metadata (optional)
+.ipynb_checkpoints/
+.vscode/
+.idea/
